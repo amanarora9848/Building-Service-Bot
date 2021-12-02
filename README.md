@@ -14,4 +14,11 @@ Steps involved in the implementation.
 
 #### Note
 
-Before running the shell scripts, do a `source devel/setup.bash` in the `catkin_ws` directory.
+Before running the shell scripts, do:
+
+```bash
+$ catkin_make
+$ source devel/setup.bash
+```
+
+from the `catkin_ws` directory.
