@@ -3,6 +3,8 @@
 
 ##### This is a mini-project created to demonstrate a mobile service robot, capable of mapping its environment and autonomously navigating through it. It is capable of moving towards a certain goal, pick up an object, and drop it off at a certain other location.
 
+
+
 Steps involved in the implementation.
 
 1. Driving around (with the help of the [teleop_twist_keyboard](http://wiki.ros.org/teleop_twist_keyboard) package) through the environment, and scanning it using laser and RGBD camera. 
