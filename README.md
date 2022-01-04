@@ -22,5 +22,37 @@ Before running the shell scripts, do:
 $ catkin_make
 $ source devel/setup.bash
 ```
-
 from the `catkin_ws` directory.
+
+### For running the project
+
+- Clone the repo.
+```bash
+$ git clone git@github.com:amanarora9848/Building-Service-Bot.git
+```
+
+- Navigate to the `catkin_ws` directory and do a `catkin_make`
+```bash
+$ cd catkin_ws
+$ catkin_make
+```
+
+- Source setup.bash
+```bash
+$ source devel/setup.bash
+```
+
+- To run the SLAM script, enter:
+```bash
+$ ./src/scripts/test_slam.sh
+```
+
+- To run the Navigation script, enter:
+```bash
+$ ./src/scripts/test_navigation.sh
+```
+
+- To run the script to perform object delivery service, enter:
+```bash
+$ ./src/scripts/home_service.sh
+```
