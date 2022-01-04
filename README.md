@@ -49,6 +49,7 @@ $ source devel/setup.bash
 ```bash
 $ ./src/scripts/test_slam.sh
 ```
+https://user-images.githubusercontent.com/32492649/148048465-87f2a192-5f50-4547-bcda-45f9a58fc4ab.mp4
 
 - To run the Navigation script, enter:
 ```bash
