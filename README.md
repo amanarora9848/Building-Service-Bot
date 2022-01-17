@@ -4,6 +4,9 @@
 ##### This is a mini-project created to demonstrate a mobile service robot, capable of mapping its environment and autonomously navigating through it. It is capable of moving towards a certain goal, pick up an object, and drop it off at a certain other location.
 
 
+  config.total_params = model.count_params()
+    
+  # Train the model
 https://user-images.githubusercontent.com/32492649/144702280-89a3e645-1884-41cf-8e8b-e2212d3cefb6.mp4
 
 [Video URL](https://youtu.be/j68kPhCX8aM)
@@ -22,8 +25,8 @@ Steps involved in the implementation.
 Before running the shell scripts, do:
 
 ```bash
-$ catkin_make
-$ source devel/setup.bash
+catkin_make
+source devel/setup.bash
 ```
 from the `catkin_ws` directory.
 
@@ -31,32 +34,32 @@ from the `catkin_ws` directory.
 
 - Clone the repo.
 ```bash
-$ git clone git@github.com:amanarora9848/Building-Service-Bot.git
+git clone git@github.com:amanarora9848/Building-Service-Bot.git
 ```
 
 - Navigate to the `catkin_ws` directory and do a `catkin_make`
 ```bash
-$ cd catkin_ws
-$ catkin_make
+cd catkin_ws
+catkin_make
 ```
 
 - Source setup.bash
 ```bash
-$ source devel/setup.bash
+source devel/setup.bash
 ```
 
 - To run the SLAM script, enter:
 ```bash
-$ ./src/scripts/test_slam.sh
+./src/scripts/test_slam.sh
 ```
 https://user-images.githubusercontent.com/32492649/148048465-87f2a192-5f50-4547-bcda-45f9a58fc4ab.mp4
 
 - To run the Navigation script, enter:
 ```bash
-$ ./src/scripts/test_navigation.sh
+./src/scripts/test_navigation.sh
 ```
 
 - To run the script to perform object delivery service, enter:
 ```bash
-$ ./src/scripts/home_service.sh
+./src/scripts/home_service.sh
 ```
