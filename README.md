@@ -4,9 +4,6 @@
 ##### This is a mini-project created to demonstrate a mobile service robot, capable of mapping its environment and autonomously navigating through it. It is capable of moving towards a certain goal, pick up an object, and drop it off at a certain other location.
 
 
-  config.total_params = model.count_params()
-    
-  # Train the model
 https://user-images.githubusercontent.com/32492649/144702280-89a3e645-1884-41cf-8e8b-e2212d3cefb6.mp4
 
 [Video URL](https://youtu.be/j68kPhCX8aM)
